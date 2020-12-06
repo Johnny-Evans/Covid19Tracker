@@ -1,0 +1,14 @@
+.cards{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 900px){
+    .cards{
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+    }
+}

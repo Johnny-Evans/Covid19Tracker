@@ -1,0 +1,33 @@
+.Card{
+    padding: 2rem;
+    margin: 1rem 0;
+    border: 3px solid #eee;
+    box-shadow: 12px 12px 12px #eee;
+    border-radius: 0.2rem 0.2rem 1rem 1rem;
+}
+
+.Card .title {
+    color: #111;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Card .text {
+    margin-bottom: 1rem;
+}
+
+.Card .text h2 {
+    color: #555;
+    font-size: 1.6rem;
+}
+
+.Card .text h3 {
+    color: #aaa;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 900px){
+    .Card{
+        margin: 1rem;
+    }
+}
