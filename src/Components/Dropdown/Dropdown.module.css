@@ -1,0 +1,38 @@
+.dropdown{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-evenly;
+}
+
+.dropdown label {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.dropdown select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+    width: 100%;
+    height: auto;
+    font-size: 100%;
+    cursor: pointer;
+    padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.dropdown select:focus, .dropdown select:hover {
+    outline: none;
+}
+
+@media (min-width: 768px){
+    .dropdown {
+        grid-template-columns: 50%;
+    }
+}

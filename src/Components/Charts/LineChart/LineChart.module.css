@@ -1,0 +1,16 @@
+.chart{
+    width: 80%;
+    margin: 0 auto 4rem auto;
+}
+
+@media (min-width: 992px){
+    .chart {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px){
+    .chart {
+        width: 50%;
+    }
+}

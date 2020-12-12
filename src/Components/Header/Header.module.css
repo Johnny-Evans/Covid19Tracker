@@ -1,6 +1,7 @@
 .header{
     text-align: center;
-    padding: 5px 3px;
+    padding: 4px 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header img {
@@ -8,20 +9,32 @@
     width: 1em;
     margin: 0;
     position: relative;
-    top: 0.5rem;
+    top: 0.3rem;
     display: inline-block;
     margin: 0 0.2rem;
 }
 
 .header h1 {
-    margin: 1rem 0;
+    margin: 0.8rem 0 0 0;
 }
 
 .header h1:nth-of-type(1){
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .header h1:nth-of-type(2){
     color: #111;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
+    margin: 0.9rem 0 0 0;
+}
+
+@media (max-width: 450px){
+    .header h1:nth-of-type(1){
+        font-size: 2rem;
+    }
+    
+    .header h1:nth-of-type(2){
+        color: #111;
+        font-size: 1.5rem;
+    }  
 }

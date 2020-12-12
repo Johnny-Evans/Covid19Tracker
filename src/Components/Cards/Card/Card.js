@@ -18,7 +18,7 @@ function Card(props){
                     </h3>
                 </div>
                 <div className={classes.text + " " + classes.new}>
-                    <h2>Newly {props.title}</h2>
+                    <h2>{props.title} Today</h2>
                     <h3><CountUp 
                             start={0}
                             end={props.new}
